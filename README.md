@@ -6,21 +6,17 @@ The system is fully console-based and uses the Command Pattern for flexibility a
 
 **Classes**
 
-ConfigRoomCommand → Configure number of rooms in the office
+ConfigRoomCommand 
 
-ConfigCapacityCommand → Set maximum capacity for a given room
+ConfigCapacityCommand 
 
-BookRoomCommand → Reserve a room with a start time and duration
+BookRoomCommand 
 
-CancelRoomCommand → Cancel a room booking
+CancelRoomCommand 
 
-AddOccupantCommand → Add occupants to a room, triggering AC and lights automatically
+AddOccupantCommand 
 
-RoomStatusCommand → Check current status of a room (occupied/unoccupied, booking info)
-
-RoomSummaryCommand → Print usage statistics of all rooms
-
-Core Components
+**Core Components**
 
 SmartOfficeCommandCenter → Invoker (Command Pattern)
 
@@ -28,8 +24,9 @@ Room → Receiver (Command Pattern)
 
 OfficeManager → Singleton manager that maintains all rooms
 
-Booking → Represents a room booking with start time and duration
-
 OccupancySensor → Subject in Observer Pattern
 
-ACController / LightController → Observers (automatically switch ON/OFF)
+ACController / LightController → (Observers)
+
+**Pattern Used:Command pattern, Singleton pattern, Observer Pattern**
+
