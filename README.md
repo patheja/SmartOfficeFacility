@@ -1,3 +1,22 @@
+**Smart Office Facility** 
+
+**EXERCISE 1 - Problem Statement on Design patterns**
+
+Two use cases to demonstrate two behavioural design pattern.
+Command
+
+Observer
+
+Two use cases to demonstrate two creational design pattern.
+Abstract Factory
+
+Builder
+
+Two use cases to demonstrate two structural design pattern.
+Adaptor
+
+Facade
+
 **EXERCISE 2: 2) Smart Office Facility Programming Exercise**
 
 The Smart Office Facility simulates controlling a smart workplace with meeting rooms.
