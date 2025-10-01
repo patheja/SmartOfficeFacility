@@ -52,6 +52,13 @@ ACController / LightController → (Observers)
 
 **Pattern Used:Command pattern, Singleton pattern, Observer Pattern**
 
+
+    Command Pattern → for encapsulating all console commands
+
+    Singleton → for OfficeManager to ensure one global manager
+
+    Observer Pattern → for AC and Light controllers reacting to room occupancy
+
 **Features**
 
 Configure Office
@@ -60,4 +67,12 @@ Booking
 
 Occupancy
 
+**Run Instructions**
 
+Compile all .java files:
+
+        javac Main.java commands/*.java core/*.java utils/*.java
+
+**Run the system:**
+
+        java Main
