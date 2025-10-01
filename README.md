@@ -3,16 +3,19 @@
 **EXERCISE 1 - Problem Statement on Design patterns**
 
 Two use cases to demonstrate two behavioural design pattern.
+
 Command
 
 Observer
 
 Two use cases to demonstrate two creational design pattern.
+
 Abstract Factory
 
 Builder
 
 Two use cases to demonstrate two structural design pattern.
+
 Adaptor
 
 Facade
