@@ -30,3 +30,12 @@ ACController / LightController → (Observers)
 
 **Pattern Used:Command pattern, Singleton pattern, Observer Pattern**
 
+**Features**
+
+Configure Office
+
+Booking
+
+Occupancy
+
+
